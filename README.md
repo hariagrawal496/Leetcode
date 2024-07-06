@@ -13,6 +13,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
+| [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -41,4 +42,8 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
+## String
+|  |
+| ------- |
+| [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
 <!---LeetCode Topics End-->
