@@ -7,6 +7,7 @@
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
+| [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
@@ -48,4 +49,8 @@
 |  |
 | ------- |
 | [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
