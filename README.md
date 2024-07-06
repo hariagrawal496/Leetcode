@@ -8,6 +8,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
+| [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
 ## Hash Table
 |  |
@@ -22,6 +23,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
+| [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 ## Counting
 |  |
 | ------- |
