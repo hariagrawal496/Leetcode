@@ -36,4 +36,8 @@
 |  |
 | ------- |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
