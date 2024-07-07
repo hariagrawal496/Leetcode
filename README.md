@@ -50,6 +50,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
+| [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
 ## String
 |  |
 | ------- |
@@ -70,4 +71,12 @@
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
