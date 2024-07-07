@@ -53,6 +53,7 @@
 | [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
+| [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 ## String
 |  |
 | ------- |
@@ -69,6 +70,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Prefix Sum
 |  |
@@ -82,4 +84,8 @@
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
