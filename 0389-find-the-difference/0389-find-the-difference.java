@@ -1,22 +1,17 @@
 class Solution {
     public char findTheDifference(String s, String t) 
     {
-         char c = 0 ;
-         int length = Math.max(s.length() , t.length());
+        int sum = 0 ;
+        for(int i=0 ; i<t.length(); i++)
+        {
+            sum += (int)t.charAt(i) ;
+        }
 
-         for(int i=0; i<length ; i++)
-         {
-            if( i < s.length())
-            {
-                c ^= s.charAt(i) ;
-            }
-
-            if( i < t.length())
-            {
-                c ^= t.charAt(i) ;
-            }
-         }
-
-      return c ; 
+        for(int i=0 ; i<s.length(); i++)
+        {
+            sum -= (int)s.charAt(i) ;
+        }
+        
+        return (char)sum ;
     }
 }
