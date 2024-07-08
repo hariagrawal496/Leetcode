@@ -7,6 +7,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/hariagrawal496/Leetcode/tree/master/0001-two-sum) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
@@ -76,6 +77,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
@@ -103,4 +105,8 @@
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
