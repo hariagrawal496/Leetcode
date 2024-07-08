@@ -13,6 +13,7 @@
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
+| [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
@@ -39,6 +40,7 @@
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
+| [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 ## Counting
 |  |
@@ -81,6 +83,7 @@
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
+| [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 ## Simulation
 |  |
 | ------- |
