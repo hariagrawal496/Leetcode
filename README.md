@@ -7,6 +7,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/hariagrawal496/Leetcode/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/hariagrawal496/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
@@ -39,6 +40,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/hariagrawal496/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
@@ -84,6 +86,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/hariagrawal496/Leetcode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
