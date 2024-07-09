@@ -18,6 +18,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/hariagrawal496/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/hariagrawal496/Leetcode/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
@@ -42,6 +43,7 @@
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
+| [0217-contains-duplicate](https://github.com/hariagrawal496/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
@@ -63,6 +65,7 @@
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
 | [0088-merge-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/hariagrawal496/Leetcode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
