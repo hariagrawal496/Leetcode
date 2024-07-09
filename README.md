@@ -21,6 +21,7 @@
 | [0228-summary-ranges](https://github.com/hariagrawal496/Leetcode/tree/master/0228-summary-ranges) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
+| [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
@@ -129,6 +130,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 ## Bit Manipulation
 |  |
@@ -155,6 +157,7 @@
 ## Design
 |  |
 | ------- |
+| [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 ## Hash Function
 |  |
