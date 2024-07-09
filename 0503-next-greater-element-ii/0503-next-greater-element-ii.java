@@ -20,15 +20,17 @@ class Solution {
                 }
             }
 
-   
-            for(int j=0 ; j<i ; j++)
+            if(flag)
             {
-                if(nums[i] < nums[j]  && flag == true )
+                for(int j=0 ; j<i ; j++)
                 {
-                   arr[i] = nums[j] ;
-                   break ;
+                    if(nums[i] < nums[j] )
+                    {
+                        arr[i] = nums[j] ;
+                        break ;
+                    }
                 }
-            }
+            }         
         }
    return arr ;
     }
