@@ -10,20 +10,25 @@ class Solution {
         map.put('D' , 500) ;
         map.put('M' , 1000) ;
 
-        int ans = 0 ;
-
-        for(int i=1; i<s.length() ; i++) 
+        int n = s.length() ;
+        int ans = map.get(s.charAt(n-1)) ;
+        int prev =0 ;
+        int curr = 0 ;
+    
+        for(int i=1; i<n ; i++) 
         {
-          if(map.get(s.charAt(i-1)) < map.get(s.charAt(i)) )
-          {
-            ans -= map.get(s.charAt(i-1)) ;
-          }
-          else
-          {
-            ans += map.get(s.charAt(i-1));
-          }
+            prev = map.get(s.charAt(i-1)) ;
+            curr = map.get(s.charAt(i)) ;
+
+           if(prev < curr)
+           {
+             ans -= prev ;
+           }
+           else
+           {
+              ans += prev ;
+           }
         }
-      ans += map.get(s.charAt(s.length()-1)) ;
-    return ans ;
+        return Math.abs(ans) ;
     }
 }
