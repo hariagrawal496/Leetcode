@@ -34,6 +34,7 @@
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/hariagrawal496/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
@@ -53,6 +54,7 @@
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
+| [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Divide and Conquer
 |  |
@@ -74,6 +76,7 @@
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 ## Counting
 |  |
 | ------- |
@@ -91,6 +94,7 @@
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 ## Matrix
 |  |
 | ------- |
@@ -188,4 +192,8 @@
 | ------- |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 <!---LeetCode Topics End-->
