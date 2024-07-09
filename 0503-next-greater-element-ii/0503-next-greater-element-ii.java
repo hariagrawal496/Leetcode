@@ -3,16 +3,29 @@ class Solution {
     {
         int n = nums.length ;
         int[] arr = new int[n] ;
+        boolean flag = true ;
 
         for(int i=0; i<nums.length; i++)
         {
             arr[i] = -1 ;
+            flag = true ;
 
-            for(int j= i+1 ; j<(i+n) ; j++)
+            for(int j= i+1 ; j<n ; j++)
             {
-                if(nums[i] < nums[j%n])
+                if(nums[i] < nums[j])
                 {
-                   arr[i] = nums[j%n] ;
+                   arr[i] = nums[j] ;
+                   flag = false ;
+                   break ;
+                }
+            }
+
+   
+            for(int j=0 ; j<i ; j++)
+            {
+                if(nums[i] < nums[j]  && flag == true )
+                {
+                   arr[i] = nums[j] ;
                    break ;
                 }
             }
