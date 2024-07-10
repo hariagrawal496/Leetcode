@@ -4,8 +4,17 @@ class NumMatrix
 
     public NumMatrix(int[][] matrix) 
     {
+        
         int m  = matrix.length ;
         int n = matrix[0].length ;
+             /*
+             
+            3 0 1         0  0  0  0  
+            5 6 3    ==>  0  3  3  4
+            1 2 0         0  8 14 18
+                          0  9 17 21
+
+             */
         prefixMatrix = new int[m+1][n+1] ;
         for(int i=1; i<=m ; i++)
         {
