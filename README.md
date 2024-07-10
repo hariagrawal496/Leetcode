@@ -24,6 +24,7 @@
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -99,6 +100,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
+| [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
 ## Math
@@ -145,6 +147,7 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 ## Bit Manipulation
 |  |
@@ -173,6 +176,7 @@
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 ## Hash Function
 |  |
