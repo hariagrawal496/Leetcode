@@ -36,6 +36,7 @@
 | [0455-assign-cookies](https://github.com/hariagrawal496/Leetcode/tree/master/0455-assign-cookies) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -105,6 +106,7 @@
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/hariagrawal496/Leetcode/tree/master/0455-assign-cookies) |
+| [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 ## Matrix
 |  |
