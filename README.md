@@ -11,6 +11,7 @@
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/hariagrawal496/Leetcode/tree/master/0027-remove-element) |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
+| [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0088-merge-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/hariagrawal496/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0119-pascals-triangle-ii) |
@@ -111,6 +112,7 @@
 | [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
+| [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
