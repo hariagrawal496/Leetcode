@@ -122,6 +122,7 @@
 | ------- |
 | [0009-palindrome-number](https://github.com/hariagrawal496/Leetcode/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
+| [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
@@ -134,6 +135,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
+| [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
@@ -158,6 +160,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
