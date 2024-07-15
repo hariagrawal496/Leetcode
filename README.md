@@ -37,6 +37,7 @@
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
+| [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
@@ -63,6 +64,7 @@
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
