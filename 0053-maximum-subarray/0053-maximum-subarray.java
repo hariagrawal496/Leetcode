@@ -3,24 +3,18 @@ class Solution {
     {
         int maxSum = Integer.MIN_VALUE  ;
         int sum = 0 ;
-
-        int s = 0 ;
         int e = 0 ;
 
-        while( s <= e && e <nums.length)
+        while( e < nums.length)
         {
             sum += nums[e++] ;
-        maxSum = Math.max(maxSum , sum) ;
+          maxSum = Math.max(maxSum , sum) ;
 
-            while(sum < 0)
-            {
-                sum -= nums[s++] ;
+          if( sum < 0)
+          {
+            sum = 0 ;
+          }
 
-                if(sum >= 0)
-                {
-                    break ;
-                }
-            }
         }
         return maxSum ;
     }
