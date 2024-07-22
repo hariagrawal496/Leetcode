@@ -52,6 +52,7 @@
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/hariagrawal496/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
+| [1580-shuffle-the-array](https://github.com/hariagrawal496/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
