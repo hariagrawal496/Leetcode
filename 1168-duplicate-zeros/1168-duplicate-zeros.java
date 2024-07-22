@@ -1,23 +1,27 @@
 class Solution {
     public void duplicateZeros(int[] arr) 
     {
+        List<Integer> list = new ArrayList<>() ;
+        int j=0 ;
+
         for(int i=0; i<arr.length; i++)
         {
             if( arr[i] == 0)
             {
-               arr = shiftArrayByOnePlaceToRight(arr , i) ;
-              i++ ;
-
+               list.add(0) ;       
             }
+           list.add(arr[i]) ; 
+        }
+
+        int i=0 ;
+        for(int x : list)
+        {
+            if( i == arr.length)
+            {
+                break ;
+            }
+            arr[i++] = x ;
         }
     }
 
-    public static int[] shiftArrayByOnePlaceToRight(int[] arr , int x)
-    {
-       for(int i=arr.length-1; i>x; i--)
-       {
-           arr[i] = arr[i-1] ;
-       }
-       return arr ;
-    }
 }
