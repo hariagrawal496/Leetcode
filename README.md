@@ -55,6 +55,7 @@
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
+| [1839-decode-xored-array](https://github.com/hariagrawal496/Leetcode/tree/master/1839-decode-xored-array) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
 |  |
@@ -199,6 +200,7 @@
 | [0260-single-number-iii](https://github.com/hariagrawal496/Leetcode/tree/master/0260-single-number-iii) |
 | [0371-sum-of-two-integers](https://github.com/hariagrawal496/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
+| [1839-decode-xored-array](https://github.com/hariagrawal496/Leetcode/tree/master/1839-decode-xored-array) |
 ## Recursion
 |  |
 | ------- |
