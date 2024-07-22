@@ -44,6 +44,7 @@
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
+| [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/hariagrawal496/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
@@ -182,6 +183,7 @@
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0303-range-sum-query-immutable) |
 | [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
+| [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
 ## Bit Manipulation
 |  |
@@ -205,6 +207,7 @@
 | ------- |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Linked List
 |  |
 | ------- |
@@ -223,6 +226,7 @@
 |  |
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Stack
 |  |
 | ------- |
