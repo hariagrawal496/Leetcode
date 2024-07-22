@@ -15,19 +15,15 @@ class Solution {
                 count_0++ ;
             }
 
-            while(count_0 > k)
-            {
-                if(nums[s] == 0)
+                while(count_0 > k)
                 {
-                    s++ ;
-                    count_0-- ;
-                    break ;
-                }
-                s++ ;
-            }
-            
+                    if(nums[s++] == 0)
+                    {
+                        count_0-- ;
+                        break ;
+                    }              
+                }    
             maxLength = Math.max(maxLength , e-s+1) ;
-             System.out.println(maxLength) ;
             e++ ;
         }
       return maxLength ;
