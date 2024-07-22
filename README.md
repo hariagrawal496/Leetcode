@@ -41,6 +41,7 @@
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
+| [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/hariagrawal496/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -92,6 +93,7 @@
 | [0414-third-maximum-number](https://github.com/hariagrawal496/Leetcode/tree/master/0414-third-maximum-number) |
 | [0455-assign-cookies](https://github.com/hariagrawal496/Leetcode/tree/master/0455-assign-cookies) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
+| [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
@@ -163,6 +165,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/hariagrawal496/Leetcode/tree/master/0455-assign-cookies) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
+| [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 ## Simulation
 |  |
 | ------- |
