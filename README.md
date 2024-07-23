@@ -57,6 +57,7 @@
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [1839-decode-xored-array](https://github.com/hariagrawal496/Leetcode/tree/master/1839-decode-xored-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
 |  |
@@ -149,6 +150,7 @@
 | [0371-sum-of-two-integers](https://github.com/hariagrawal496/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/hariagrawal496/Leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## String
 |  |
 | ------- |
@@ -202,6 +204,7 @@
 | [0371-sum-of-two-integers](https://github.com/hariagrawal496/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [1839-decode-xored-array](https://github.com/hariagrawal496/Leetcode/tree/master/1839-decode-xored-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Recursion
 |  |
 | ------- |
@@ -254,4 +257,16 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+## Backtracking
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Combinatorics
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Enumeration
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
