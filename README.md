@@ -10,6 +10,7 @@
 | [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/hariagrawal496/Leetcode/tree/master/0027-remove-element) |
+| [0033-search-in-rotated-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/hariagrawal496/Leetcode/tree/master/0053-maximum-subarray) |
 | [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
@@ -226,6 +227,7 @@
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
