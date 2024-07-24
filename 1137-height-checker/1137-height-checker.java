@@ -1,17 +1,33 @@
 class Solution {
     public int heightChecker(int[] heights) 
     {
-        int[] arr = Arrays.stream(heights).sorted().toArray() ;
+        Map<Integer , Integer> map = new TreeMap<>() ;
 
-        int count = 0 ;
-
-        for(int i=0; i<heights.length; i++)
+        for(int x : heights)
         {
-            if(heights[i] != arr[i])
+            map.put(x, map.getOrDefault(x,0)+1) ;
+        }
+
+        int[] arr = new int[heights.length] ;
+        int i=0 ;
+
+        for(int x : map.keySet())
+        {
+            int count = map.get(x) ;
+            while(count-- > 0)
             {
-               count++ ;
+                arr[i++] = x ;
             }
         }
-        return count ;
+
+        int ans = 0 ;
+        for(int j=0; j<heights.length; j++ )
+        {
+            if(heights[j] != arr[j])
+            {
+               ans++ ;
+            }
+        }
+        return ans;
     }
 }
