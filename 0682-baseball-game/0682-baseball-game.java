@@ -1,50 +1,32 @@
 class Solution {
     public int calPoints(String[] operations) 
     {
-       Stack<Integer> stack = new Stack<>() ;   
-       int sum = 0 ;
- 
-       for(String x : operations)
-       {
-          if(x.equals("+"))
-          {
-              if(stack.size() < 2)
-              {
-                continue ;
-              }
-             int first = stack.pop() ;
-             int second = stack.peek() ;
-             stack.push(first) ;
-             int val = first+second ;
-             stack.push(val) ;
-             sum +=  val ;
-          }
-          else if(x.equals("D"))
-          {
-              if(stack.size() < 1)
-              {
-                continue ;
-              }
-               int val = 2*stack.peek() ;
-               stack.push(val) ;
-               sum += val ;
-          }
-          else if(x.equals("C"))
-          {
-              if(stack.size() < 1)
-              {
-                continue ;
-              }
-            int val = stack.pop() ;
-            sum -= val ;
-          }
-          else
-          {
-            int val = Integer.parseInt(x) ;
-            stack.push(val) ;
-            sum += val ;
-          }
-       }
-  return sum ;
+        List<Integer> list = new LinkedList<>() ;
+        int sum = 0 ;
+
+        for(String str : operations )
+        {
+            if(str.equals("D"))
+            {
+                list.add(2 * list.get(list.size()-1)) ;
+                sum += list.get(list.size()-1);
+            }
+            else if(str.equals("+"))
+            {
+              list.add( list.get(list.size()-1) +  list.get(list.size()-2)) ;
+              sum += list.get(list.size()-1);
+            }
+            else if(str.equals("C")  && list.size() > 0)
+            {
+               sum -= list.get(list.size()-1) ;
+                list.remove(list.size()-1) ;
+            }
+            else
+            {
+               list.add(Integer.parseInt(str)) ;
+                sum += list.get(list.size()-1);
+            }
+        }
+        return sum ;
     }
 }
