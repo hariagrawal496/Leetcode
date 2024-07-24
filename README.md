@@ -42,6 +42,7 @@
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0575-distribute-candies](https://github.com/hariagrawal496/Leetcode/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
+| [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
@@ -206,6 +207,7 @@
 | [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/hariagrawal496/Leetcode/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
+| [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Prefix Sum
@@ -267,6 +269,7 @@
 | ------- |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
 ## Monotonic Stack
