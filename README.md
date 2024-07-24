@@ -58,6 +58,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1349-check-if-it-is-a-straight-line](https://github.com/hariagrawal496/Leetcode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/hariagrawal496/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
@@ -173,6 +174,7 @@
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 | [0371-sum-of-two-integers](https://github.com/hariagrawal496/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/hariagrawal496/Leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [1349-check-if-it-is-a-straight-line](https://github.com/hariagrawal496/Leetcode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## String
@@ -309,4 +311,8 @@
 |  |
 | ------- |
 | [1137-height-checker](https://github.com/hariagrawal496/Leetcode/tree/master/1137-height-checker) |
+## Geometry
+|  |
+| ------- |
+| [1349-check-if-it-is-a-straight-line](https://github.com/hariagrawal496/Leetcode/tree/master/1349-check-if-it-is-a-straight-line) |
 <!---LeetCode Topics End-->
