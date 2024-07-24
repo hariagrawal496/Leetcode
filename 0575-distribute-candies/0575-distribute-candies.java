@@ -2,22 +2,20 @@ class Solution {
     public int distributeCandies(int[] candyType) 
     {
         Set<Integer> set = new HashSet<>() ;
-        int count = 0 ;
-
         for(int x : candyType)
         {
             set.add(x) ;
         }
+        
         int n = candyType.length/2 ;
+        int count = set.size() ;
   
-        for(int x : set)
-        {
-            count++ ;
-             if(count == n)
+        
+            if(count <= n)
             {
-                break ;
-            }      
-        }
-         return count ;
+              return count ;
+            }    
+
+         return n ;
     }
 }
