@@ -50,6 +50,7 @@
 | [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1137-height-checker](https://github.com/hariagrawal496/Leetcode/tree/master/1137-height-checker) |
 | [1168-duplicate-zeros](https://github.com/hariagrawal496/Leetcode/tree/master/1168-duplicate-zeros) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/hariagrawal496/Leetcode/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
@@ -115,6 +116,7 @@
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
+| [1137-height-checker](https://github.com/hariagrawal496/Leetcode/tree/master/1137-height-checker) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
@@ -292,4 +294,8 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Counting Sort
+|  |
+| ------- |
+| [1137-height-checker](https://github.com/hariagrawal496/Leetcode/tree/master/1137-height-checker) |
 <!---LeetCode Topics End-->
