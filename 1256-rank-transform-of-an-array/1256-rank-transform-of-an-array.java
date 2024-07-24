@@ -9,7 +9,6 @@ class Solution {
        Arrays.sort(nums) ; // 10 20 30 40
 
         int rank = 1;
-
         Map<Integer , Integer> map = new HashMap<>() ;
 
         for(int x : nums)
