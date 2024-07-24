@@ -1,17 +1,18 @@
 class Solution {
     public int[] arrayRankTransform(int[] arr) 
     {
-        Set<Integer> set = new TreeSet<>() ;
-        for(int x : arr)
-        {
-            set.add(x) ;
-        }
+       int[] nums = new int[arr.length] ;
+       for(int i=0; i<arr.length; i++)
+       {
+           nums[i] = arr[i] ;
+       }
+       Arrays.sort(nums) ; // 10 20 30 40
 
         int rank = 1;
 
         Map<Integer , Integer> map = new HashMap<>() ;
 
-        for(int x : set)
+        for(int x : nums)
         {
             if(!map.containsKey(x))
             {
