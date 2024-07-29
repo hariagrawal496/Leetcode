@@ -141,6 +141,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/hariagrawal496/Leetcode/tree/master/0053-maximum-subarray) |
 | [0118-pascals-triangle](https://github.com/hariagrawal496/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0119-pascals-triangle-ii) |
@@ -184,6 +185,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hariagrawal496/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0067-add-binary](https://github.com/hariagrawal496/Leetcode/tree/master/0067-add-binary) |
@@ -200,6 +202,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/hariagrawal496/Leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
