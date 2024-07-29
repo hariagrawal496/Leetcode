@@ -99,6 +99,7 @@
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Divide and Conquer
 |  |
@@ -130,6 +131,7 @@
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Counting
 |  |
@@ -156,6 +158,7 @@
 | [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 ## Matrix
 |  |
@@ -202,6 +205,7 @@
 | [0965-unique-email-addresses](https://github.com/hariagrawal496/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
+| [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
