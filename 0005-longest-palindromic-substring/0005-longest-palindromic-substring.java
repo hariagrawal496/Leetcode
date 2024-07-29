@@ -1,33 +1,41 @@
 class Solution {
     public String longestPalindrome(String s) 
     {
+        // checking from center method
         String ans = "" ;
-        for(int i=0; i<s.length() ; i++)
+
+        for(int i=0; i<s.length(); i++)
         {
-            for(int j=i; j<s.length(); j++)
+            String odd = expandFromCenter(s ,i ,i) ;
+            String even = expandFromCenter(s ,i ,i+1) ;
+
+            if (odd.length() > ans.length()) 
             {
-                  if(reverseOfString(s , i, j))
-                  {
-                      if(j-i+1 >= ans.length())
-                      {
-                          ans = s.substring(i, j+1) ;
-                      }
-                  }
+                ans = odd;
             }
-        }  
-        return ans ;
+
+            if (even.length() > ans.length()) 
+            {
+                ans = even;
+            }
+        }
+        return ans ;           
     }
 
-    public static boolean reverseOfString(String str , int s, int e)
+    public static String expandFromCenter(String s , int left , int right)
     {
-          while(s <= e)
-          {
-             if(str.charAt(s++) != str.charAt(e--))
-             {
-                return false ;
-             }
-          }
+        String ans = "" ;
 
-     return true ;
+            while( left >= 0  && right <s.length()  && s.charAt(left) == s.charAt(right ))
+            {       
+                    if(right-left+1 >= ans.length())
+                    {
+                        ans = s.substring(left , right+1) ;
+                    }   
+
+                    left-- ;
+                    right++ ;          
+            }
+    return ans ;
     }
 }
