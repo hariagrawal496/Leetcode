@@ -198,6 +198,7 @@
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/0392-is-subsequence) |
 | [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
+| [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0965-unique-email-addresses](https://github.com/hariagrawal496/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
@@ -220,6 +221,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0392-is-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/0392-is-subsequence) |
 | [0455-assign-cookies](https://github.com/hariagrawal496/Leetcode/tree/master/0455-assign-cookies) |
+| [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0941-sort-array-by-parity](https://github.com/hariagrawal496/Leetcode/tree/master/0941-sort-array-by-parity) |
 | [0958-sort-array-by-parity-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0958-sort-array-by-parity-ii) |
 | [1168-duplicate-zeros](https://github.com/hariagrawal496/Leetcode/tree/master/1168-duplicate-zeros) |
@@ -230,6 +232,7 @@
 | [0067-add-binary](https://github.com/hariagrawal496/Leetcode/tree/master/0067-add-binary) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
+| [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 ## Prefix Sum
@@ -294,6 +297,7 @@
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
+| [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
 ## Monotonic Stack
 |  |
