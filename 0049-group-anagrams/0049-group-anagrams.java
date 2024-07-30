@@ -3,11 +3,12 @@ class Solution {
     {
         Map<String , List<String>> map = new HashMap<>() ;
         String local = "" ;
+         char[] arr ;
 
         for(String str : strs)
         {
             local = str ;
-            char[] arr = local.toCharArray() ;
+            arr = local.toCharArray() ;
             Arrays.sort(arr) ;
             local = new String(arr) ;
 
