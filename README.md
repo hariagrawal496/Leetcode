@@ -196,6 +196,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/hariagrawal496/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/hariagrawal496/Leetcode/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/hariagrawal496/Leetcode/tree/master/0020-valid-parentheses) |
 | [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/hariagrawal496/Leetcode/tree/master/0049-group-anagrams) |
@@ -356,4 +357,8 @@
 |  |
 | ------- |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/hariagrawal496/Leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
