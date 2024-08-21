@@ -3,14 +3,13 @@ class Solution {
     {
         int m = matrix.length ;
         int n = matrix[0].length ;
-
         int[][] mat = new int[n][m] ;
 
-        for(int i=0; i<n; i++)
+        for(int i=0; i<m; i++)
         {
-            for(int j=0; j<m; j++)
+            for(int j=0; j<n; j++)
             {
-                mat[i][j] = matrix[j][i] ;       
+                mat[j][i] = matrix[i][j] ;
             }
         }
         return mat ;
