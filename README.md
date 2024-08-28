@@ -62,6 +62,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1293-three-consecutive-odds](https://github.com/hariagrawal496/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/hariagrawal496/Leetcode/tree/master/1306-minimum-absolute-difference) |
+| [1319-unique-number-of-occurrences](https://github.com/hariagrawal496/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/hariagrawal496/Leetcode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
@@ -104,6 +105,7 @@
 | [0965-unique-email-addresses](https://github.com/hariagrawal496/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1256-rank-transform-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1319-unique-number-of-occurrences](https://github.com/hariagrawal496/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
