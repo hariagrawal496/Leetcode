@@ -20,12 +20,11 @@ class Solution {
         {
             return null ;
         }
-        
-        TreeNode newNode = new TreeNode(root.val);
-        
-        newNode.right = invertTree(root.left) ;
-        newNode.left = invertTree(root.right) ;
 
-      return newNode ;
+        TreeNode node = new TreeNode(root.val) ;
+        node.left = invertTree(root.right) ;
+        node.right = invertTree(root.left) ;
+
+      return node ;
     }
 }
