@@ -21,8 +21,10 @@ class Solution {
             return 0 ;
         }
 
-        int maxLength = Math.max( maxDepth(root.left) , maxDepth(root.right) );
+        int leftSide = maxDepth(root.left) ;
+        int rightSide = maxDepth(root.right) ;
+        int len = Math.max(leftSide , rightSide) + 1 ;
 
-        return 1 + maxLength ;
+        return len ;
     }
 }
