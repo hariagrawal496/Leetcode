@@ -16,7 +16,7 @@
 class Solution {
     public boolean isSubtree(TreeNode root, TreeNode subRoot) 
     {
-        if(subRoot == null)
+        if(subRoot == null || checkSameTree(root , subRoot))
         {
             return true ;
         }
@@ -25,20 +25,7 @@ class Solution {
         {
             return false ;
         }
-  
-        if(checkSameTree(root , subRoot)) 
-        {
-            return true ;
-        }
-
-        boolean leftRoot = isSubtree(root.left , subRoot ) ;
-        boolean rightRoot = isSubtree(root.right , subRoot) ;
- 
-       if( leftRoot == true ||  rightRoot == true )
-       {
-         return true ;
-       }
-     return false  ;
+      return isSubtree(root.left , subRoot ) || isSubtree(root.right , subRoot)  ;
     }
 
     public static boolean checkSameTree(TreeNode p , TreeNode q)
@@ -51,18 +38,7 @@ class Solution {
         if((p == null && q != null) || (p != null && q == null) || (p.val != q.val))
         {
             return  false ;
-        }
-     
-        boolean leftSide = checkSameTree(p.left , q.left) ;
-        boolean rightSide = checkSameTree(p.right , q.right) ;
-
-        if(leftSide == false || rightSide == false)
-        {
-            return false ;
-        }
-
-        return true ;
+        }   
+      return checkSameTree(p.left , q.left) && checkSameTree(p.right , q.right)  ;
     }
-
-
 }
