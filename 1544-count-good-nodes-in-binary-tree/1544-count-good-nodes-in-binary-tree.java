@@ -21,27 +21,29 @@ class Solution {
             return 0 ;
         }
 
-       return checkCount(root, root.val) ;
+        TreeNode node = root ;
+        return checkCount(root , node) ;
     }
 
-    public int checkCount(TreeNode root, int max)
+    public int checkCount(TreeNode root , TreeNode node)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-        int count = 0 ;
+       int count = 0 ;
 
-       if(root.val >= max)
+       if(root.val >= node.val)
        {
           count++ ;
-          max = Math.max(max, root.val) ;
+          node = root ;
        }
 
-      count += checkCount(root.left, max) ;
-      count += checkCount(root.right, max) ;
+       count += checkCount(root.left , node) ;
+       count += checkCount(root.right , node) ;
 
-      return count ;
+       return count ;
+
     }
 }
