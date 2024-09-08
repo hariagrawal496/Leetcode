@@ -26,6 +26,14 @@ class Solution {
             return false ;
         }
 
-        return isSameTree(p.left , q.left) && isSameTree(p.right , q.right) ;
+      boolean leftSide = isSameTree(p.left , q.left) ;
+      boolean rightSide = isSameTree(p.right , q.right) ;
+
+      if(leftSide == false || rightSide == false)
+      {
+        return false ;
+      }
+
+        return  true ;
     }
 }
