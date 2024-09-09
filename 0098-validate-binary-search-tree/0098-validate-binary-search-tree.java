@@ -21,7 +21,7 @@ class Solution {
             return true ;
         }
 
-        return isValidBST(root , Long.MIN_VALUE , Long.MAX_VALUE) ;
+      return isValidBST(root , Long.MIN_VALUE , Long.MAX_VALUE) ;
     }
 
     public boolean isValidBST(TreeNode root , long min , long max)
@@ -30,12 +30,13 @@ class Solution {
         {
             return true ;
         }
-
-        if(root.val <= min || root.val >= max)
+     
+        if(root.val >= max || root.val <= min)
         {
-           return false ;
+            return false ;
         }
+  
+      return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max) ;
 
-        return isValidBST(root.left , min , root.val) && isValidBST(root.right , root.val , max) ;
-    } 
+    }
 }
