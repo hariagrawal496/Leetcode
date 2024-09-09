@@ -15,33 +15,26 @@
  */
 class Solution {
 
-    private int ans = Integer.MIN_VALUE ;
+ public int max = Integer.MIN_VALUE ;
 
     public int maxPathSum(TreeNode root) 
-    {
-        if(root == null)
-        {
-            return 0 ;
-        }
-
-        maxPathSumData(root);
-       return ans ;
+    {  
+        sumPath(root) ;
+        return max ;
     }
 
-    
-
-    public int maxPathSumData(TreeNode root)
+    public int sumPath(TreeNode root)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-        int left  = Math.max(0, maxPathSumData(root.left)) ;
-        int right = Math.max(0, maxPathSumData(root.right)) ;
-        int rootLeftAndRight  = left + right + root.val ;   
+        int left  = Math.max(0, sumPath(root.left)) ;
+        int right = Math.max(0, sumPath(root.right)) ;
+        int rootSum = left + right + root.val ;
 
-        ans = Math.max(ans, rootLeftAndRight );
-        return Math.max(left, right) + root.val  ;
+        max = Math.max(max , rootSum) ;
+        return root.val + Math.max(left, right) ;
     }
 }
