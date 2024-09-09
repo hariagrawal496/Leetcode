@@ -21,29 +21,27 @@ class Solution {
             return 0 ;
         }
 
-        TreeNode node = root ;
-        return checkCount(root , node) ;
+        return coutGoodnodes(root , root) ;
     }
 
-    public int checkCount(TreeNode root , TreeNode node)
+    public int coutGoodnodes(TreeNode root , TreeNode node)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-       int count = 0 ;
+        int count = 0 ;
 
-       if(root.val >= node.val)
-       {
-          count++ ;
-          node = root ;
-       }
+        if(root.val >=  node.val)
+        {
+            count++ ;
+           node = root ;
+        }
 
-       count += checkCount(root.left , node) ;
-       count += checkCount(root.right , node) ;
+        count += coutGoodnodes(root.left , node);
+        count += coutGoodnodes(root.right , node);
 
-       return count ;
-
+        return count ;
     }
 }
