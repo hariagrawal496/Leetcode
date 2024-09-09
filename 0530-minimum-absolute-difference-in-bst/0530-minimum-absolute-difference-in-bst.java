@@ -20,14 +20,9 @@ class Solution {
         int ans = Integer.MAX_VALUE ;
         inOrder(root , list) ;
 
-        if(list.size() == 1)
-        {
-            return list.get(0) ;
-        }
-  
         for(int i=1; i<list.size(); i++)
         {
-            ans = Math.min( ans, Math.abs(list.get(i)-list.get(i-1)) );
+            ans = Math.min( ans, list.get(i)-list.get(i-1) );
         }
         return ans ;
     }
