@@ -16,6 +16,11 @@
 class Solution {
     public int getMinimumDifference(TreeNode root) 
     {
+        if(root == null)
+        {
+            return 0 ;
+        }
+        
         List<Integer> list = new LinkedList<>() ;
         int ans = Integer.MAX_VALUE ;
         inOrder(root , list) ;
