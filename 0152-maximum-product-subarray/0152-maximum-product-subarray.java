@@ -11,34 +11,36 @@ class Solution {
             return nums[0] ;
         }
 
-        int[] dp = new int[nums.length] ;    
-
-          int prod = 1 ;   
+        int[] dp = new int[nums.length] ;  
+        int leftprod = 1 ;  
+        int rightprod = 1 ;  
+    
         for(int i=0; i<nums.length; i++)
         {
-             prod *= nums[i] ;
-             dp[i] = prod ;
+            dp[i] = Integer.MIN_VALUE;
 
-             if(prod == 0)
-             {
-                prod = 1 ;
-             }
+            leftprod *= nums[i] ;
+            dp[i] = Math.max(dp[i], leftprod);
+
+            rightprod *= nums[nums.length-1-i] ;
+            dp[i] = Math.max(dp[i], rightprod);
+
+
+            if(leftprod == 0)
+            {
+                leftprod = 1 ;
+            }
+
+            if(rightprod == 0)
+            {
+                rightprod = 1 ;
+            }
         }
-
+    
         int ans = Integer.MIN_VALUE ;
-        prod = 1 ;
-
         for(int i=nums.length-1; i>=0; i--)
         {
-             prod *= nums[i] ;
-             dp[i] = Math.max(dp[i] ,prod) ;
-
-             ans = Math.max(dp[i] , ans) ;
-
-             if(prod == 0)
-             {
-                prod = 1 ;
-             }
+           ans = Math.max(ans, dp[i] ) ;
         }
 
         return ans ;
