@@ -21,10 +21,9 @@ class Solution {
             return 0 ;
         }
 
-        return coutGoodnodes(root , root) ;
+        return countGoodNode(root, root) ;
     }
-
-    public int coutGoodnodes(TreeNode root , TreeNode node)
+    public int countGoodNode(TreeNode root, TreeNode node) 
     {
         if(root == null)
         {
@@ -32,16 +31,16 @@ class Solution {
         }
 
         int count = 0 ;
-
-        if(root.val >=  node.val)
+        if(root.val >= node.val)
         {
             count++ ;
-           node = root ;
+            node = root ;
         }
 
-        count += coutGoodnodes(root.left , node);
-        count += coutGoodnodes(root.right , node);
+        count += countGoodNode(root.left, node);
+        count += countGoodNode(root.right, node);
 
         return count ;
     }
+
 }
