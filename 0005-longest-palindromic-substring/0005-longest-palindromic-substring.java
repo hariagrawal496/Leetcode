@@ -12,7 +12,7 @@ class Solution {
         }
 
         String ans = "" ;
-        for(int i=0; i<s.length()-1; i++)
+        for(int i=0; i<s.length(); i++)
         {
            String oddLength  =  checkForLength(i, i, s);
            String evenLength =  checkForLength(i, i+1, s);
