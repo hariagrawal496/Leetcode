@@ -10,37 +10,32 @@ class Solution {
         {
             return nums[0] ;
         }
-
-        int[] dp = new int[nums.length] ;  
-        int leftprod = 1 ;  
-        int rightprod = 1 ;  
+  
+        int prod = 1 ; 
+        int ans = Integer.MIN_VALUE ; 
     
         for(int i=0; i<nums.length; i++)
         {
-            dp[i] = Integer.MIN_VALUE;
-
-            leftprod *= nums[i] ;
-            dp[i] = Math.max(dp[i], leftprod);
-
-            rightprod *= nums[nums.length-1-i] ;
-            dp[i] = Math.max(dp[i], rightprod);
-
-
-            if(leftprod == 0)
+            prod *= nums[i] ;      
+            ans = Math.max(ans ,prod );
+           
+            if(prod == 0)
             {
-                leftprod = 1 ;
-            }
-
-            if(rightprod == 0)
-            {
-                rightprod = 1 ;
+                prod = 1 ; 
             }
         }
     
-        int ans = Integer.MIN_VALUE ;
+        prod = 1 ; 
+
         for(int i=nums.length-1; i>=0; i--)
         {
-           ans = Math.max(ans, dp[i] ) ;
+           prod *= nums[i] ;      
+           ans = Math.max(ans ,prod );
+           
+            if(prod == 0)
+            {
+                prod = 1 ;
+            }
         }
 
         return ans ;
