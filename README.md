@@ -165,6 +165,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/hariagrawal496/Leetcode/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/hariagrawal496/Leetcode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/hariagrawal496/Leetcode/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0119-pascals-triangle-ii) |
@@ -202,6 +203,7 @@
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
 | [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/hariagrawal496/Leetcode/tree/master/0067-add-binary) |
+| [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
@@ -496,4 +498,8 @@
 | [0230-kth-smallest-element-in-a-bst](https://github.com/hariagrawal496/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/hariagrawal496/Leetcode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/hariagrawal496/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
