@@ -1,42 +1,50 @@
 class Solution {
     public String longestPalindrome(String s) 
     {
-        String ans = "" ;
-        
-        for(int i=0; i<s.length(); i++)
+        if(s.length() == 0)
         {
-            String even = checkedWithCenter(s, i, i) ;
-            String odd =  checkedWithCenter(s, i, i+1) ;
-
-            if(even.length() >= ans.length())
-            {
-                ans = even ;
-            }
-
-             if(odd.length() >= ans.length())
-            {
-                ans = odd ;
-            }
+            return "" ;
         }
-        return ans ;
+
+        if(s.length() == 1)
+        {
+            return s ;
+        }
+
+        String ans = "" ;
+        for(int i=0; i<s.length()-1; i++)
+        {
+           String oddLength  =  checkForLength(i, i, s);
+           String evenLength =  checkForLength(i, i+1, s);
+
+           if(oddLength.length() > ans.length())
+           {
+               ans = oddLength ;
+           }
+
+           if(evenLength.length() > ans.length())
+           {
+               ans = evenLength ;
+           }
+        }
+         return ans ;
     }
 
-    public static String checkedWithCenter(String s , int left , int right)
-    {
-        String ans = "" ;
-   
-      while(left >=0 && right < s.length())
-      {
-          if(s.charAt(left) == s.charAt(right))
-          {
-              left-- ;
-              right++ ;
-          }
-          else
-          {
-            break ;
-          }
-      }
-     return s.substring(left+1 , right) ;
-    }
+        public String checkForLength(int s , int e , String str)
+        {
+             while( s >=0 && e <str.length())
+             {
+                  if(str.charAt(s) == str.charAt(e))
+                  {
+                       s-- ;
+                       e++ ;
+                  }
+                  else
+                  {
+                    break ;
+                  }
+             }
+
+             return str.substring(s+1, e) ;
+        }
 }
