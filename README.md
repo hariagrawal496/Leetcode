@@ -50,6 +50,7 @@
 | [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
+| [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
@@ -174,6 +175,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/hariagrawal496/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0338-counting-bits](https://github.com/hariagrawal496/Leetcode/tree/master/0338-counting-bits) |
 | [0392-is-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/0392-is-subsequence) |
+| [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 ## Greedy
 |  |
 | ------- |
