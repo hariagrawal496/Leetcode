@@ -21,19 +21,11 @@ class Solution {
             return true ;
         }
 
-        if( (p == null && q != null) || (p != null && q == null) || (p.val != q.val))
+        if((p != null && q == null) || (p == null && q != null) || (p.val != q.val))
         {
             return false ;
         }
 
-      boolean leftSide = isSameTree(p.left , q.left) ;
-      boolean rightSide = isSameTree(p.right , q.right) ;
-
-      if(leftSide == false || rightSide == false)
-      {
-        return false ;
-      }
-
-        return  true ;
+        return isSameTree(p.left , q.left) && isSameTree(q.right , p.right) ;
     }
 }
