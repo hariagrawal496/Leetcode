@@ -26,7 +26,7 @@ class Solution {
             return false ;
         }
 
-        if(checkSameTree(root, subRoot))
+        if(sameTree(root , subRoot))
         {
             return true ;
         }
@@ -34,18 +34,18 @@ class Solution {
         return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot) ;
     }
 
-    public boolean checkSameTree(TreeNode root, TreeNode subRoot)
+    public boolean sameTree(TreeNode p, TreeNode q)
     {
-        if(root == null && subRoot == null)
+        if(p == null  && q == null)
         {
             return true ;
         }
 
-        if((root == null && subRoot != null) || (root != null && subRoot == null) || (root.val != subRoot.val))
+        if((p == null  && q != null) || (p != null  && q == null) || (p.val != q.val )  )
         {
-             return false ;
+            return false ;
         }
 
-        return checkSameTree(root.left, subRoot.left) && checkSameTree(root.right, subRoot.right) ;
+        return sameTree(p.left, q.left) && sameTree(p.right, q.right) ;
     }
 }
