@@ -13,9 +13,9 @@ class Solution {
                 if( i == 0 || j == 0)
                 {
                    dp[i][j] = 0 ;
+                   continue ;
                 }             
-                else
-                {
+               
                     if(text1.charAt(i-1) == text2.charAt(j-1))
                     {
                         dp[i][j] = dp[i-1][j-1] + 1 ;
@@ -25,7 +25,6 @@ class Solution {
                     {
                         dp[i][j] = Math.max(dp[i][j-1], dp[i-1][j]) ;
                     }
-                }
            }
         }
         return dp[m][n] ;
