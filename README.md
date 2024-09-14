@@ -172,6 +172,7 @@
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/hariagrawal496/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/hariagrawal496/Leetcode/tree/master/0053-maximum-subarray) |
+| [0062-unique-paths](https://github.com/hariagrawal496/Leetcode/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/hariagrawal496/Leetcode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/hariagrawal496/Leetcode/tree/master/0118-pascals-triangle) |
@@ -216,6 +217,7 @@
 | [0013-roman-to-integer](https://github.com/hariagrawal496/Leetcode/tree/master/0013-roman-to-integer) |
 | [0043-multiply-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/hariagrawal496/Leetcode/tree/master/0048-rotate-image) |
+| [0062-unique-paths](https://github.com/hariagrawal496/Leetcode/tree/master/0062-unique-paths) |
 | [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/hariagrawal496/Leetcode/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
@@ -395,6 +397,7 @@
 ## Combinatorics
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/hariagrawal496/Leetcode/tree/master/0062-unique-paths) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Enumeration
 |  |
