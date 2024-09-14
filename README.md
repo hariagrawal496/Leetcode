@@ -190,6 +190,7 @@
 | [0416-partition-equal-subset-sum](https://github.com/hariagrawal496/Leetcode/tree/master/0416-partition-equal-subset-sum) |
 | [0647-palindromic-substrings](https://github.com/hariagrawal496/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [1250-longest-common-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/1250-longest-common-subsequence) |
 ## Greedy
 |  |
 | ------- |
@@ -257,6 +258,7 @@
 | [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0965-unique-email-addresses](https://github.com/hariagrawal496/Leetcode/tree/master/0965-unique-email-addresses) |
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
+| [1250-longest-common-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
