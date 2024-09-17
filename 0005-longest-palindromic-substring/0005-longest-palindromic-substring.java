@@ -1,50 +1,47 @@
 class Solution {
     public String longestPalindrome(String s) 
     {
-        int n = s.length() ;
-        if(n == 0)
-        {
-            return "" ;
-        }
-
-        if(n == 1)
+        if(s.length() == 0 || s.length() == 1)
         {
             return s ;
         }
 
         String ans = "" ;
-        for(int i=0; i<n; i++)
+        
+        for(int i=0; i<s.length(); i++)
         {
-            String oddString = checkpalindrome(i, i, s) ;
-            String evenString = checkpalindrome(i, i+1, s) ;
+            String oddString  = checkValidString(s, i, i) ;
+            String evenString = checkValidString(s, i-1, i) ;
 
-            if(ans.length() < oddString.length())
+            if(oddString.length() > ans.length())
             {
-                 ans = oddString ;
+                ans = oddString ;
             }
 
-            if(ans.length() < evenString.length())
+            if(evenString.length() > ans.length())
             {
-                 ans = evenString ;
+                ans = evenString ;
             }
         }
-         return ans ;
+
+        return ans ;
     }
 
-    public String checkpalindrome(int s, int e, String str)
+    public String checkValidString(String s,int start, int end)
     {
-        while(s >= 0 && e < str.length())
-        {
-            if(str.charAt(s) == str.charAt(e))
-            {
-                s-- ;
-                e++ ;
-            }
-            else
-            {
-                break ;
-            }
-        }
-       return str.substring(s+1, e) ;
+           while(start >= 0 && end < s.length())
+           {
+              if(s.charAt(start) == s.charAt(end))
+              {
+                   start-- ;
+                   end++ ;
+              }
+              else
+              {
+                  break ;
+              }
+           }
+
+           return s.substring(start+1, end) ;
     }
 }
