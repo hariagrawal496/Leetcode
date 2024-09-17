@@ -18,19 +18,23 @@ class Solution {
     {
         if(root == null)
         {
-            return -1 ;
+         return 0 ;
         }
+
         List<Integer> list = new ArrayList<>() ;
-        inOrder(root , list) ;
+        inOrder(root, list) ;
         return list.get(k-1) ;
     }
 
-    public void inOrder(TreeNode root , List<Integer> list)
+    public void inOrder(TreeNode root, List<Integer> list)
     {
-          if(root == null) return ;
+          if(root == null)
+          {
+            return ;
+          }
 
-          inOrder(root.left , list) ;
-          list.add(root.val) ;
-          inOrder(root.right , list) ;
+            inOrder(root.left, list);
+            list.add(root.val) ;
+            inOrder(root.right, list);
     }
 }
