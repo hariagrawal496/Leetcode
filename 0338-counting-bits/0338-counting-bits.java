@@ -3,20 +3,21 @@ class Solution {
     {
         int[] arr = new int[n+1] ;
 
-       for(int i=0; i<=n; i++)
-       {
-        int count = 0 ;
-        int j = i ;
-          while(j > 0)
-          {
-            if( (j&1) == 1)
+        for(int i=0; i<=n; i++)
+        {
+            int count = 0 ;  
+            int value = i ;   
+                  
+            while(value > 0)
             {
-               count++ ;
+                if((value & 1) == 1)
+                {
+                    count++ ;
+                }
+                value = value >> 1 ;
             }
-            j = j>>1 ;
-          }
-          arr[i] = count ;
-       }
-     return arr ;
+            arr[i] = count ;
+        }
+        return arr ;
     }
 }
