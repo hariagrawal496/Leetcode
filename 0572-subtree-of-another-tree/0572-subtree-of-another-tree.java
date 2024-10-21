@@ -26,26 +26,26 @@ class Solution {
             return false ;
         }
 
-        if(checkSameTree(root , subRoot))
+        if(sameTree(root, subRoot))
         {
             return true ;
         }
 
-        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot) ;
+        return isSubtree(root.left, subRoot) || isSubtree(root.right, subRoot)  ;
     }
 
-    public boolean checkSameTree(TreeNode p , TreeNode q )
+    public static boolean sameTree(TreeNode root, TreeNode subRoot)
     {
-         if( p == null && q == null)
-         {
+          if(root == null && subRoot == null)
+          {
             return true ;
-         }
+          }
 
-         if( p == null && q != null || p != null && q == null || p.val != q.val)
-         {
+          if(root == null && subRoot != null || root != null && subRoot == null || root.val != subRoot.val)
+          {
             return false ;
-         }
+          }
 
-         return checkSameTree(p.left, q.left) && checkSameTree(p.right, q.right) ;
+          return sameTree(root.left , subRoot.left) && sameTree(root.right , subRoot.right) ;
     }
 }
