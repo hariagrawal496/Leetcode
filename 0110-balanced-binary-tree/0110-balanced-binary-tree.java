@@ -21,10 +21,7 @@ class Solution {
             return true ;
         }
 
-        int leftSide  = height(root.left) ;
-        int rightSide = height(root.right) ;
-
-        if(Math.abs(leftSide - rightSide) > 1)
+        if(Math.abs( maxHeight(root.left) - maxHeight(root.right))  > 1)
         {
             return false ;
         }
@@ -32,13 +29,13 @@ class Solution {
         return isBalanced(root.left) && isBalanced(root.right) ;
     }
 
-    public int height(TreeNode root)
+    public static int maxHeight(TreeNode root)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-        return 1 + Math.max( height(root.left) , height(root.right)) ;
+      return Math.max( maxHeight(root.left) , maxHeight(root.right)) + 1 ;
     }
 }
