@@ -21,20 +21,20 @@ class Solution {
             return 0 ;
         }
 
-        int height = maxHeight(root.left) + maxHeight(root.right);
+        int rootDiameter = maxHeight(root.left) + maxHeight(root.right) ;
         int leftDiameter = diameterOfBinaryTree(root.left) ;
         int rightDiameter = diameterOfBinaryTree(root.right) ;
 
-        return Math.max(height , Math.max(leftDiameter, rightDiameter));
+        return Math.max(rootDiameter, Math.max(leftDiameter, rightDiameter));
     }
 
-    public int maxHeight(TreeNode root)
+    public static int maxHeight(TreeNode root)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-        return 1 + Math.max( maxHeight(root.left), maxHeight(root.right) ) ;
+        return Math.max(maxHeight(root.left), maxHeight(root.right)) + 1 ;
     }
 }
