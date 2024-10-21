@@ -14,14 +14,14 @@
  * }
  */
 class Solution {
-    public List<Integer> rightSideView(TreeNode root)
+    public List<Integer> rightSideView(TreeNode root) 
     {
         List<Integer> list = new ArrayList<>() ;
 
-           if(root == null)
-           {
-             return list ;
-           }
+         if(root == null)
+         {
+            return list ;
+         }
 
          Queue<TreeNode> q = new LinkedList<>() ;
          q.add(root) ;
@@ -31,27 +31,26 @@ class Solution {
              int len = q.size() ;
              boolean flag = true ;
 
-             while(len-- > 0)
-             {
+            for(int i=0; i<len ;i++)
+            {
                 TreeNode node = q.remove() ;
-                if(flag)
+                if(flag == true)
                 {
-                  list.add(node.val) ;
-                  flag = false ;
+                    list.add(node.val) ;
+                    flag = false ;
                 }
 
                 if(node.right != null)
                 {
                     q.add(node.right) ;
                 }
-                
+
                 if(node.left != null)
                 {
                     q.add(node.left) ;
-                }             
-             }
+                }
+            }
          }
-         return list ;
-        
+        return list ;
     }
 }
