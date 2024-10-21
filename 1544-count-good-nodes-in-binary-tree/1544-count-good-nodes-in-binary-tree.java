@@ -19,28 +19,30 @@ class Solution {
         if(root == null)
         {
             return 0 ;
-        }
+        } 
 
-        return countGoodNodes(root, root) ;
+        TreeNode node = root ;
+        return goodNodes(root, node);
     }
 
-    public int countGoodNodes(TreeNode root,TreeNode node)
+    public static int goodNodes(TreeNode root, TreeNode node)
     {
-         if(root == null)
-         {
+        int count = 0 ;
+
+        if(root == null)
+        {
             return 0 ;
-         }
+        } 
 
-         int count = 0 ;
-         if(root.val >= node.val)
-         {
-            count++ ;
-            node = root ;
-         }
-
-         count += countGoodNodes(root.left, node);
-         count += countGoodNodes(root.right, node);
+        if(root.val >= node.val)
+        {
+           count++ ;
+           node = root ;
+        }
      
-     return count ;
+       count += goodNodes(root.left, node) ;
+       count += goodNodes(root.right, node) ;
+
+       return count ;
     }
 }
