@@ -21,7 +21,7 @@ class Solution {
             return true ;
         }
 
-        return isValidBST(root, Integer.MIN_VALUE, Integer.MAX_VALUE) ;
+        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE) ;
     }
 
      public boolean isValidBST(TreeNode root, long min, long max) 
