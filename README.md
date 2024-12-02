@@ -61,6 +61,7 @@
 | [0575-distribute-candies](https://github.com/hariagrawal496/Leetcode/tree/master/0575-distribute-candies) |
 | [0605-can-place-flowers](https://github.com/hariagrawal496/Leetcode/tree/master/0605-can-place-flowers) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
+| [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
 | [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
@@ -222,6 +223,7 @@
 | [0073-set-matrix-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/hariagrawal496/Leetcode/tree/master/0200-number-of-islands) |
 | [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
+| [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
 | [1677-matrix-diagonal-sum](https://github.com/hariagrawal496/Leetcode/tree/master/1677-matrix-diagonal-sum) |
@@ -452,6 +454,7 @@
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/hariagrawal496/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/hariagrawal496/Leetcode/tree/master/0200-number-of-islands) |
+| [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -499,6 +502,7 @@
 | [0530-minimum-absolute-difference-in-bst](https://github.com/hariagrawal496/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/hariagrawal496/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/hariagrawal496/Leetcode/tree/master/0572-subtree-of-another-tree) |
+| [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/hariagrawal496/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -513,6 +517,7 @@
 | [0226-invert-binary-tree](https://github.com/hariagrawal496/Leetcode/tree/master/0226-invert-binary-tree) |
 | [0322-coin-change](https://github.com/hariagrawal496/Leetcode/tree/master/0322-coin-change) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/hariagrawal496/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
+| [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 | [1544-count-good-nodes-in-binary-tree](https://github.com/hariagrawal496/Leetcode/tree/master/1544-count-good-nodes-in-binary-tree) |
 ## Binary Tree
 |  |
