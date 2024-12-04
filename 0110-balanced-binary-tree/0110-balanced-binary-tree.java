@@ -21,21 +21,23 @@ class Solution {
             return true ;
         }
 
-        if(Math.abs( maxHeight(root.left) - maxHeight(root.right))  > 1)
+        int leftHeight = height(root.left) ;
+        int rightHeight = height(root.right) ;
+
+        if(Math.abs(leftHeight - rightHeight ) > 1)
         {
             return false ;
         }
-
         return isBalanced(root.left) && isBalanced(root.right) ;
     }
 
-    public static int maxHeight(TreeNode root)
+    public int height(TreeNode root)
     {
         if(root == null)
         {
             return 0 ;
         }
 
-      return Math.max( maxHeight(root.left) , maxHeight(root.right)) + 1 ;
+       return 1 + Math.max( height(root.left) , height(root.right) ) ; 
     }
 }
