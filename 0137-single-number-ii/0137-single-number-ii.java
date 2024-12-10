@@ -1,17 +1,22 @@
 class Solution {
     public int singleNumber(int[] nums) 
     {
-        Map<Integer ,Integer> map = new HashMap<>() ;
-        for(int x : nums)
+        for(int i=0; i<nums.length; i++)
         {
-            map.put(x, map.getOrDefault(x, 0)+1) ;
-        }
+            int value = nums[i] ;
+            int count = 0 ;
 
-        for(int x : map.keySet())
-        {
-            if(map.get(x) == 1)
+            for(int j=0; j<nums.length ; j++)
             {
-                return x ;
+                if(value == nums[j])
+                {
+                    count++ ;
+                }
+            }
+
+            if(count == 1)
+            {
+                return value ;
             }
         }
         return 0 ;
