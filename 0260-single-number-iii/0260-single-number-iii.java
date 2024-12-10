@@ -2,21 +2,24 @@ class Solution
 {
     public int[] singleNumber(int[] nums) 
     {
-        Map<Integer ,Integer> map = new HashMap<>() ;
         int[] arr = new int[2] ;
-        int i=0 ;
+        int j=0 ;
 
         for(int x : nums)
         {
-           map.put(x, map.getOrDefault(x, 0)+1) ;
-        }
+            int count = 0 ;
+           for(int i=0; i<nums.length; i++)
+           {
+                if( x == nums[i])
+                {
+                    count++ ;
+                }
+           }
 
-        for(int x : map.keySet() )
-        {
-            if(map.get(x) == 1)
-            {
-                arr[i++] = x ;
-            }
+           if(count == 1)
+           {
+            arr[j++] = x ;
+           }
         }
         return arr ;
     }
