@@ -1,49 +1,49 @@
 class Solution {
     public String addBinary(String a, String b) 
     {
-        int len = Math.max(a.length() , b.length()) ;
-        int[] arr = new int[len+1] ;
+       int maxLength = Math.max(a.length() , b.length()) ;
+       int[] arr = new int[maxLength + 1] ;
+       
 
-        for(int i=0; i<len ; i++)
+        for(int i=0; i<maxLength ; i++)
         {
-            int sum = 0 ;
-            if( i < a.length())
-            {
-              sum += a.charAt(a.length()-1 - i) - '0' ;
-            }
+            int value = 0 ;
 
-            if( i < b.length())
-            {
-              sum += b.charAt(b.length()-1 - i) - '0' ;
-            }
+             if( i < a.length())
+             {
+                value += a.charAt(a.length()-1-i) - '0' ;
+             }
 
-            arr[len-i] += sum ;
-            arr[len-1-i] += arr[len-i]/2 ;
-            arr[len-i] = arr[len-i]%2 ;
+             if(i < b.length())
+             {
+               value += b.charAt(b.length()-1-i) - '0' ;
+             }
+
+             arr[arr.length-1-i] += value ;
+             arr[arr.length-1-i-1] += arr[arr.length-1-i]/2 ;
+             arr[arr.length-1-i] = arr[arr.length-1-i]%2 ;
         }
 
         String ans = "" ;
         boolean flag = true ;
-
-        for(int i=0; i<arr.length; i++)
-        {
-            if(arr[0] == 0 &&flag == true)
-            {
+   
+         for(int i=0; i<arr.length; i++)
+         {
+             if( arr[0] == 0 && flag== true)
+             {
                 flag = false ;
-                continue ;
-            }
-            else
-            {
-                ans += arr[i] + "" ;
-            }
-        }
-        System.out.println(ans) ;
+                 continue ;               
+             }
+             else
+             {
+                 ans += arr[i] + "" ;
+             }
+         }
 
-        if(ans == "")
-        {
+         if(ans.length() == 0)
+         {
             return "0" ;
-        }
-
-     return ans ;
+         }
+        return ans ;
     }
 }
