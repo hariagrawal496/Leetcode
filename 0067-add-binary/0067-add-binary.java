@@ -11,12 +11,12 @@ class Solution {
 
              if( i < a.length())
              {
-                value += a.charAt(a.length()-1-i) - '0' ;
+                value += a.charAt(a.length()-1-i) - 48   ;
              }
 
              if(i < b.length())
              {
-               value += b.charAt(b.length()-1-i) - '0' ;
+               value += b.charAt(b.length()-1-i) - 48   ;
              }
 
              arr[arr.length-1-i] += value ;
