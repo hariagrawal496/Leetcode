@@ -1,27 +1,23 @@
-class Solution {
+class Solution 
+{
     public int[] singleNumber(int[] nums) 
     {
-        Set<Integer> set = new HashSet<>() ;
+        Map<Integer ,Integer> map = new HashMap<>() ;
         int[] arr = new int[2] ;
+        int i=0 ;
 
         for(int x : nums)
         {
-            if(set.contains(x))
-            {
-                set.remove(x) ;
-            }
-            else
-            {
-                set.add(x) ;
-            }
+           map.put(x, map.getOrDefault(x, 0)+1) ;
         }
 
-       int i=0 ;
-        for(int x : set)
+        for(int x : map.keySet() )
         {
-            arr[i++] = x ;
+            if(map.get(x) == 1)
+            {
+                arr[i++] = x ;
+            }
         }
-
         return arr ;
     }
 }
