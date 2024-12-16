@@ -6,7 +6,7 @@ class Solution {
 
         for(int x : nums)
         {
-            if(x != 1)
+            if(x == 0)
             {
                 count = 0 ;
             }
@@ -14,8 +14,8 @@ class Solution {
             {
                 count++ ;
             }
-              maxCount = Math.max(maxCount , count) ;
+            maxCount = Math.max(maxCount , count) ;
         }
-        return maxCount ;
+    return maxCount ; 
     }
 }
