@@ -116,6 +116,7 @@
 | [0387-first-unique-character-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [0409-longest-palindrome](https://github.com/hariagrawal496/Leetcode/tree/master/0409-longest-palindrome) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0575-distribute-candies](https://github.com/hariagrawal496/Leetcode/tree/master/0575-distribute-candies) |
@@ -277,6 +278,7 @@
 | [0389-find-the-difference](https://github.com/hariagrawal496/Leetcode/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/0392-is-subsequence) |
 | [0409-longest-palindrome](https://github.com/hariagrawal496/Leetcode/tree/master/0409-longest-palindrome) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/hariagrawal496/Leetcode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0647-palindromic-substrings](https://github.com/hariagrawal496/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0782-jewels-and-stones](https://github.com/hariagrawal496/Leetcode/tree/master/0782-jewels-and-stones) |
@@ -389,6 +391,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/hariagrawal496/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0219-contains-duplicate-ii) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0438-find-all-anagrams-in-a-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 ## Stack
 |  |
