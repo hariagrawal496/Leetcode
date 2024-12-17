@@ -6,19 +6,25 @@ class Solution {
             return false ;
         }
 
-        char[] arr1 = s.toCharArray() ;
-        char[] arr2 = t.toCharArray() ;
-
-        Arrays.sort(arr1) ;
-        Arrays.sort(arr2) ;
-
-        for(int i=0; i<arr1.length ; i++)
+        HashMap<Character , Integer> map = new HashMap<>() ;
+        for(char x : s.toCharArray())
         {
-            if(arr1[i] != arr2[i])
+            map.put(x, map.getOrDefault(x,0)+1) ;
+        }
+     
+        for(char x : t.toCharArray())
+        {
+            if(map.containsKey(x))
             {
-               return false ;
+                map.put(x, map.getOrDefault(x,0)-1) ;
+
+                if(map.get(x) == 0)
+                {
+                    map.remove(x) ;
+                }
             }
         }
-    return true ;
+
+      return map.size() == 0 ;
     }
 }
