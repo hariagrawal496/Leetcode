@@ -65,6 +65,7 @@
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
 | [0695-max-area-of-island](https://github.com/hariagrawal496/Leetcode/tree/master/0695-max-area-of-island) |
 | [0697-degree-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0697-degree-of-an-array) |
+| [0739-daily-temperatures](https://github.com/hariagrawal496/Leetcode/tree/master/0739-daily-temperatures) |
 | [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
@@ -405,6 +406,7 @@
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
+| [0739-daily-temperatures](https://github.com/hariagrawal496/Leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hariagrawal496/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -414,6 +416,7 @@
 | ------- |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
+| [0739-daily-temperatures](https://github.com/hariagrawal496/Leetcode/tree/master/0739-daily-temperatures) |
 | [0780-max-chunks-to-make-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 ## Heap (Priority Queue)
 |  |
