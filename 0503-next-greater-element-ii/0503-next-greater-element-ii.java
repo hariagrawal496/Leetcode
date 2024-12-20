@@ -1,37 +1,37 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) 
     {
-        int n = nums.length ;
-        int[] arr = new int[n] ;
-        boolean flag = true ;
+        int[] arr = new int[nums.length] ;
 
         for(int i=0; i<nums.length; i++)
         {
-            arr[i] = -1 ;
-            flag = true ;
-
-            for(int j= i+1 ; j<n ; j++)
+            arr[i] = Integer.MIN_VALUE ;
+            for(int j=i+1; j<nums.length; j++)
             {
-                if(nums[i] < nums[j])
+                if(nums[j] > nums[i])
                 {
                    arr[i] = nums[j] ;
-                   flag = false ;
                    break ;
                 }
             }
 
-            if(flag)
+            if(arr[i] == Integer.MIN_VALUE )
             {
-                for(int j=0 ; j<i ; j++)
+                for(int j=0; j<i; j++)
                 {
-                    if(nums[i] < nums[j] )
+                    if(nums[j] > nums[i])
                     {
                         arr[i] = nums[j] ;
                         break ;
                     }
                 }
-            }         
+            }
+
+             if(arr[i] == Integer.MIN_VALUE )
+             {
+                arr[i] = -1 ;
+             }
         }
-   return arr ;
+    return arr ;
     }
 }
