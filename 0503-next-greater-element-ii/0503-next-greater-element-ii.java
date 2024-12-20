@@ -1,37 +1,36 @@
 class Solution {
     public int[] nextGreaterElements(int[] nums) 
     {
-        int[] arr = new int[nums.length] ;
+        int n = nums.length ;
+        int[] arr = new int[2 * n] ;
 
-        for(int i=0; i<nums.length; i++)
+        for(int i=0; i<arr.length; i++)
         {
-            arr[i] = Integer.MIN_VALUE ;
-            for(int j=i+1; j<nums.length; j++)
-            {
-                if(nums[j] > nums[i])
-                {
-                   arr[i] = nums[j] ;
-                   break ;
-                }
-            }
-
-            if(arr[i] == Integer.MIN_VALUE )
-            {
-                for(int j=0; j<i; j++)
-                {
-                    if(nums[j] > nums[i])
-                    {
-                        arr[i] = nums[j] ;
-                        break ;
-                    }
-                }
-            }
-
-             if(arr[i] == Integer.MIN_VALUE )
-             {
-                arr[i] = -1 ;
-             }
+            arr[i] = nums[i%n] ;
         }
-    return arr ;
+
+        Stack<Integer> stack = new Stack<>() ;
+        int[] ans = new int[arr.length] ;
+
+        for(int i=2*n-1; i>=0 ; i--)
+        {
+            ans[i] = -1 ;
+            while(!stack.isEmpty())
+            {
+                if(stack.peek() > arr[i])
+                {
+                    ans[i] = stack.peek() ;
+                    break ;
+                }
+                stack.pop() ;
+            }
+            stack.push(arr[i]) ;
+        }
+
+        for(int i=0; i<n; i++)
+        {
+            nums[i] = ans[i] ;
+        }
+        return nums ;
     }
 }
