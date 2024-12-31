@@ -17,20 +17,20 @@ public class Solution {
             return false ;
         }
 
-        ListNode currNode = head ;
-        Set<ListNode> set = new HashSet<>() ;
-
-        while(currNode != null)
-        {
-            if(set.contains(currNode))
-            {
-                return true ;
-            }
-
-            set.add(currNode) ;
-            currNode = currNode.next ;
-        }
+        ListNode slow = head ;
+        ListNode fast = head ;
         
-   return false ;
+        while(fast.next != null && fast.next.next != null)
+        {
+             slow = slow.next ;
+             fast = fast.next.next ;
+
+            if(slow == fast)
+             {
+                return true ;
+             }
+        }
+
+     return false ;
     }
 }
