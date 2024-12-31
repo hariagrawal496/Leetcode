@@ -311,6 +311,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/hariagrawal496/Leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/hariagrawal496/Leetcode/tree/master/0189-rotate-array) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
+| [0234-palindrome-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0283-move-zeroes) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0349-intersection-of-two-arrays](https://github.com/hariagrawal496/Leetcode/tree/master/0349-intersection-of-two-arrays) |
@@ -365,6 +366,7 @@
 | [0050-powx-n](https://github.com/hariagrawal496/Leetcode/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/hariagrawal496/Leetcode/tree/master/0231-power-of-two) |
+| [0234-palindrome-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0234-palindrome-linked-list) |
 ## Number Theory
 |  |
 | ------- |
@@ -386,6 +388,7 @@
 | [0092-reverse-linked-list-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0092-reverse-linked-list-ii) |
 | [0141-linked-list-cycle](https://github.com/hariagrawal496/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0206-reverse-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0206-reverse-linked-list) |
+| [0234-palindrome-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0817-design-hashmap](https://github.com/hariagrawal496/Leetcode/tree/master/0817-design-hashmap) |
 | [0908-middle-of-the-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 ## Design
@@ -413,6 +416,7 @@
 | [0094-binary-tree-inorder-traversal](https://github.com/hariagrawal496/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/hariagrawal496/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/hariagrawal496/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0234-palindrome-linked-list](https://github.com/hariagrawal496/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0496-next-greater-element-i](https://github.com/hariagrawal496/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/hariagrawal496/Leetcode/tree/master/0682-baseball-game) |
