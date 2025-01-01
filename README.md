@@ -17,6 +17,7 @@
 | [0054-spiral-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0054-spiral-matrix) |
 | [0066-plus-one](https://github.com/hariagrawal496/Leetcode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/hariagrawal496/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0075-sort-colors](https://github.com/hariagrawal496/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/hariagrawal496/Leetcode/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/hariagrawal496/Leetcode/tree/master/0118-pascals-triangle) |
@@ -151,6 +152,7 @@
 | [0016-3sum-closest](https://github.com/hariagrawal496/Leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
 | [0049-group-anagrams](https://github.com/hariagrawal496/Leetcode/tree/master/0049-group-anagrams) |
+| [0075-sort-colors](https://github.com/hariagrawal496/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
@@ -306,6 +308,7 @@
 | [0018-4sum](https://github.com/hariagrawal496/Leetcode/tree/master/0018-4sum) |
 | [0027-remove-element](https://github.com/hariagrawal496/Leetcode/tree/master/0027-remove-element) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0075-sort-colors](https://github.com/hariagrawal496/Leetcode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/hariagrawal496/Leetcode/tree/master/0088-merge-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/hariagrawal496/Leetcode/tree/master/0141-linked-list-cycle) |
 | [0151-reverse-words-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0151-reverse-words-in-a-string) |
