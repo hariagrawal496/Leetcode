@@ -1,17 +1,22 @@
 class Solution {
     public void sortColors(int[] nums) 
     {
-        for(int i=0; i<nums.length; i++)
+        HashMap<Integer ,Integer> map = new HashMap<>() ;
+        for(int x : nums)
         {
-            for(int j=i+1; j<nums.length; j++)
+            map.put(x, map.getOrDefault(x,0)+1) ;
+        }
+
+        int j=0; 
+
+        for(int x : map.keySet())
+        {
+            int count = map.get(x) ;
+
+            while(count-- != 0)
             {
-                if(nums[i] > nums[j])
-                {
-                    int temp = nums[i] ;
-                    nums[i] = nums[j] ;
-                    nums[j] = temp ;
-                }
+                nums[j++] = x ;
             }
-        }      
+        }
     }
 }
