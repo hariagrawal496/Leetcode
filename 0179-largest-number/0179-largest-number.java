@@ -2,23 +2,22 @@ class Solution {
     public String largestNumber(int[] nums) 
     {
         int n = nums.length ;
-        List<String> list = new ArrayList<>() ;
+        String[] arr = new String[n] ;
           
         for(int i=0; i<n; i++)
         {
-            String val = String.valueOf(nums[i]) ;
-            list.add(val) ;
+            arr[i] = String.valueOf(nums[i]) ;
         }
 
-       list = list.stream().sorted((a,b) -> (b+a).compareTo(a+b)).toList() ;
-         
-        if(list.get(0).charAt(0) == '0')
+        Arrays.sort(arr, (a,b)-> (b+a).compareTo(a+b)) ;
+
+        if(arr[0].charAt(0) == '0')
         {
             return "0" ;
         }
 
         String ans = "" ;
-        for(String s : list)
+        for(String s : arr)
         {
             ans += s + "" ;
         }
