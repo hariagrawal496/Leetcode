@@ -2,26 +2,32 @@ class Solution {
     public String largestNumber(int[] nums) 
     {
         int n = nums.length ;
-        String[] arr = new String[n] ;
-          
-        for(int i=0; i<n; i++)
+        String [] arr = new String[n] ;
+
+        for(int i=0; i<nums.length; i++)
         {
             arr[i] = String.valueOf(nums[i]) ;
         }
 
-        Arrays.sort(arr, (a,b)-> (b+a).compareTo(a+b)) ;
+        PriorityQueue<String> q = new PriorityQueue<>((a,b) -> (b+a).compareTo(a+b)) ; // decresing order
 
-        if(arr[0].charAt(0) == '0')
-        {
-            return "0" ;
-        }
-
-        String ans = "" ;
         for(String s : arr)
         {
-            ans += s + "" ;
+            q.add(s) ;
         }
-   
-    return ans ;
+
+          if(q.peek().charAt(0) == '0')
+          {
+            return "0" ;
+          }
+
+          String ans = "" ;
+
+          while(!q.isEmpty())
+          {
+             ans += q.remove() ;
+          }
+     
+      return ans ;
     }
 }
