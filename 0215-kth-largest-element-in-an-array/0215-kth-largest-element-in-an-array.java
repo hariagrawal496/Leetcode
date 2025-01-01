@@ -1,22 +1,18 @@
 class Solution {
-    public int findKthLargest(int[] nums, int k) {
-        
-       Map<Integer , Integer> map = new TreeMap<>() ;
-         
-        for(int x : nums)
+    public int findKthLargest(int[] nums, int k) 
+    {
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>() ; // By default it is mean heap
+
+        for(int i=0; i<nums.length; i++)
         {
-            map.put(x, map.getOrDefault(x,0)+1) ;
+            minHeap.add(nums[i]) ;
         }
 
-       int i=0 ;
-       for(int x : map.keySet())
-       {
-        int val = map.get(x) ;
-          while( val-- > 0)
-          {
-             nums[i++] = x ;
-          } 
-       }
-     return nums[nums.length - k] ;
+        for(int i=0; i<nums.length-k; i++)
+        {
+            minHeap.remove() ;
+        }
+     
+     return minHeap.remove() ;
     }
 }
