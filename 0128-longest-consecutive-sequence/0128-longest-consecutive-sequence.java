@@ -6,7 +6,7 @@ class Solution {
             return 0 ;
         }
 
-        Set<Integer> set = new TreeSet<>() ;
+        Set<Integer> set = new HashSet<>() ;
         for(int x : nums)
         {
             set.add(x) ;
