@@ -111,6 +111,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/hariagrawal496/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/hariagrawal496/Leetcode/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/hariagrawal496/Leetcode/tree/master/0202-happy-number) |
+| [0205-isomorphic-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/hariagrawal496/Leetcode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0219-contains-duplicate-ii) |
 | [0229-majority-element-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0229-majority-element-ii) |
@@ -283,6 +284,7 @@
 | [0115-distinct-subsequences](https://github.com/hariagrawal496/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0151-reverse-words-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0179-largest-number](https://github.com/hariagrawal496/Leetcode/tree/master/0179-largest-number) |
+| [0205-isomorphic-strings](https://github.com/hariagrawal496/Leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/hariagrawal496/Leetcode/tree/master/0242-valid-anagram) |
 | [0345-reverse-vowels-of-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0345-reverse-vowels-of-a-string) |
 | [0387-first-unique-character-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
