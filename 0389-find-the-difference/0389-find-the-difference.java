@@ -1,17 +1,21 @@
 class Solution {
     public char findTheDifference(String s, String t) 
     {
-        int sum = 0 ;
-        for(int i=0 ; i<t.length(); i++)
-        {
-            sum += (int)t.charAt(i) ;
-        }
+    
+       char[] arr_s = s.toCharArray() ;
+       char[] arr_t = t.toCharArray() ;
 
-        for(int i=0 ; i<s.length(); i++)
-        {
-            sum -= (int)s.charAt(i) ;
-        }
+       Arrays.sort(arr_s) ;
+       Arrays.sort(arr_t) ;
+
+       for(int i=0; i<arr_s.length; i++)
+       {
+           if(arr_t[i] != arr_s[i])
+           {
+            return arr_t[i] ;
+           }
+       }
         
-        return (char)sum ;
+        return arr_t[t.length()-1] ;
     }
 }
