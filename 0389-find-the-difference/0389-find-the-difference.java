@@ -5,9 +5,9 @@ class Solution {
 
        for(int i=0; i<s.length(); i++)
        {
-           val += t.charAt(i) - s.charAt(i) ;
+           val ^= s.charAt(i) ^ t.charAt(i) ;
        }
         
-        return (char)(val + t.charAt(t.length()-1)) ;
+        return  (char)(val ^ t.charAt(t.length()-1)) ;
     }
 }
