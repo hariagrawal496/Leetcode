@@ -1,21 +1,13 @@
 class Solution {
     public char findTheDifference(String s, String t) 
     {
-    
-       char[] arr_s = s.toCharArray() ;
-       char[] arr_t = t.toCharArray() ;
+        char val = 0 ;
 
-       Arrays.sort(arr_s) ;
-       Arrays.sort(arr_t) ;
-
-       for(int i=0; i<arr_s.length; i++)
+       for(int i=0; i<s.length(); i++)
        {
-           if(arr_t[i] != arr_s[i])
-           {
-            return arr_t[i] ;
-           }
+           val += t.charAt(i) - s.charAt(i) ;
        }
         
-        return arr_t[t.length()-1] ;
+        return (char)(val + t.charAt(t.length()-1)) ;
     }
 }
