@@ -3,28 +3,24 @@ class Solution {
     {
         int maxProduct = Integer.MIN_VALUE ;
         int n = nums.length ;
-        int prod = 1 ;
+        int leftprod = 1 ;
+        int rightprod = 1 ;
 
         for(int i=0; i<n; i++)
         {
-            prod *= nums[i] ;
-            maxProduct = Math.max(maxProduct , prod) ;
+            leftprod *= nums[i] ;
+            rightprod *= nums[n-1-i] ;
 
-            if(prod == 0)
+            maxProduct = Math.max(maxProduct , Math.max(leftprod, rightprod)) ;
+
+            if(leftprod == 0)
             {
-                prod = 1 ;
+                leftprod = 1 ;
             }
-        }
 
-        prod = 1 ;
-        for(int i=n-1; i>=0; i--)
-        {
-            prod *= nums[i] ;
-            maxProduct = Math.max(maxProduct , prod) ;
-
-            if(prod == 0)
+            if(rightprod == 0)
             {
-                prod = 1 ;
+                rightprod = 1 ;
             }
         }
     return maxProduct ;
