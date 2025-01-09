@@ -20,10 +20,7 @@ class Solution {
         {
             return 0 ;
         }
-
-        int rootLeftHeight = maxDepth(root.left) ;
-        int rootRightHeight = maxDepth(root.right) ;
-
-        return Math.max(rootLeftHeight,  rootRightHeight) +1 ;
+        
+        return Math.max(maxDepth(root.left) , maxDepth(root.right)) + 1 ;
     }
 }
