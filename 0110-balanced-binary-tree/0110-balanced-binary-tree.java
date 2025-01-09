@@ -21,13 +21,11 @@ class Solution {
             return true ;
         }
 
-        int leftHeight = height(root.left) ;
-        int rightHeight = height(root.right) ;
-
-        if(Math.abs(leftHeight - rightHeight ) > 1)
+        if(Math.abs(height(root.left)- height(root.right)) > 1)
         {
             return false ;
         }
+        
         return isBalanced(root.left) && isBalanced(root.right) ;
     }
 
@@ -38,6 +36,6 @@ class Solution {
             return 0 ;
         }
 
-       return 1 + Math.max( height(root.left) , height(root.right) ) ; 
+        return Math.max(height(root.left),height(root.right)) + 1 ;
     }
 }
