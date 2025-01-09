@@ -26,13 +26,13 @@ class Solution {
         Queue<TreeNode> q = new LinkedList<>() ;
           q.add(root) ;
 
-          while(!q.isEmpty())
-          {
-             int len = q.size() ;
-             List<Integer> data = new ArrayList<>() ;
+        while(!q.isEmpty())
+        {
+            int len = q.size() ;
+            List<Integer> data = new ArrayList<>() ;
 
-             for(int i=0; i<len ; i++)
-             {
+            for(int i=0; i<len ; i++)
+            {
                 TreeNode node = q.remove() ;
                 data.add(node.val) ;
 
@@ -45,9 +45,9 @@ class Solution {
                 {
                     q.add(node.right) ;
                 }
-             }           
-            list.add(data) ;
-          }
+            }           
+        list.add(data) ;
+        }
      return list ;
     }
 }
