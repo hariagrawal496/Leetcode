@@ -16,26 +16,29 @@
 class Solution {
     public boolean isValidBST(TreeNode root) 
     {
+        long max = Long.MAX_VALUE ;
+        long min = Long.MIN_VALUE ;
+
         if(root == null)
         {
             return true ;
         }
 
-        return isValidBST(root, Long.MIN_VALUE, Long.MAX_VALUE) ;
+        return isValidBST(root, min, max) ; 
     }
 
-     public boolean isValidBST(TreeNode root, long min, long max) 
-     {
-             if(root == null)
-             {
-                return true ;
-             }
-            
-            if(root.val <= min || root.val >= max)
-            {
-               return false ;
-            }
+    public boolean isValidBST(TreeNode root, long min, long max) 
+    {
+        if(root == null)
+        {
+            return true ;
+        }
+
+        if(root.val <= min || root.val >= max)
+        {
+            return false ;
+        }
       
-         return isValidBST(root.left, min, root.val) && isValidBST(root.right, root.val, max) ;
-     }
+      return isValidBST(root.left, min, root.val)  && isValidBST(root.right, root.val, max)  ;
+    }
 }
