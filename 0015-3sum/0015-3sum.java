@@ -13,7 +13,7 @@ class Solution {
 				
 			while(s < e)
 			{
-				long sum = (long)(A[i] + A[s] + A[e])	 ;
+				int sum = (A[i] + A[s] + A[e])	 ;
 					
 					if(sum == 0)
 					{
