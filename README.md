@@ -273,6 +273,7 @@
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
+| [2507-number-of-common-factors](https://github.com/hariagrawal496/Leetcode/tree/master/2507-number-of-common-factors) |
 ## String
 |  |
 | ------- |
@@ -399,6 +400,7 @@
 | [0204-count-primes](https://github.com/hariagrawal496/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
 | [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
+| [2507-number-of-common-factors](https://github.com/hariagrawal496/Leetcode/tree/master/2507-number-of-common-factors) |
 ## Binary Search
 |  |
 | ------- |
@@ -494,6 +496,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/hariagrawal496/Leetcode/tree/master/0204-count-primes) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2507-number-of-common-factors](https://github.com/hariagrawal496/Leetcode/tree/master/2507-number-of-common-factors) |
 ## Counting Sort
 |  |
 | ------- |
