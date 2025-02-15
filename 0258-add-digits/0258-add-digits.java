@@ -4,20 +4,22 @@ class Solution {
         int temp = num ;
         int sum = 0 ;
 
-        while( temp != 0 )
+        while( temp != 0)
         {
-            sum += temp % 10  ;
+            sum += temp%10 ;
             temp = temp/10 ;
 
             if(temp == 0)
             {
-                if(sum > 9)
+                if(sum < 10)
                 {
-                    temp = sum ;
-                    sum = 0 ;
+                    break ;
                 }
+
+                temp = sum ;
+                sum = 0 ;
             }
         }
-        return sum ;
+    return sum ;
     }
 }
