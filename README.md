@@ -272,6 +272,7 @@
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
+| [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
 ## String
 |  |
 | ------- |
@@ -397,6 +398,7 @@
 | ------- |
 | [0204-count-primes](https://github.com/hariagrawal496/Leetcode/tree/master/0204-count-primes) |
 | [0258-add-digits](https://github.com/hariagrawal496/Leetcode/tree/master/0258-add-digits) |
+| [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
 ## Binary Search
 |  |
 | ------- |
