@@ -219,6 +219,7 @@
 | [0518-coin-change-ii](https://github.com/hariagrawal496/Leetcode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/hariagrawal496/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0747-min-cost-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0747-min-cost-climbing-stairs) |
+| [1086-divisor-game](https://github.com/hariagrawal496/Leetcode/tree/master/1086-divisor-game) |
 | [1250-longest-common-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/1250-longest-common-subsequence) |
 ## Greedy
 |  |
@@ -268,6 +269,7 @@
 | [0268-missing-number](https://github.com/hariagrawal496/Leetcode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/hariagrawal496/Leetcode/tree/master/0371-sum-of-two-integers) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/hariagrawal496/Leetcode/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [1086-divisor-game](https://github.com/hariagrawal496/Leetcode/tree/master/1086-divisor-game) |
 | [1349-check-if-it-is-a-straight-line](https://github.com/hariagrawal496/Leetcode/tree/master/1349-check-if-it-is-a-straight-line) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -512,6 +514,7 @@
 ## Game Theory
 |  |
 | ------- |
+| [1086-divisor-game](https://github.com/hariagrawal496/Leetcode/tree/master/1086-divisor-game) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 ## Trie
 |  |
@@ -625,4 +628,8 @@
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/hariagrawal496/Leetcode/tree/master/0070-climbing-stairs) |
+## Brainteaser
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/hariagrawal496/Leetcode/tree/master/1086-divisor-game) |
 <!---LeetCode Topics End-->
