@@ -276,6 +276,7 @@
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
 | [2507-number-of-common-factors](https://github.com/hariagrawal496/Leetcode/tree/master/2507-number-of-common-factors) |
+| [2645-pass-the-pillow](https://github.com/hariagrawal496/Leetcode/tree/master/2645-pass-the-pillow) |
 ## String
 |  |
 | ------- |
@@ -361,6 +362,7 @@
 | [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0898-transpose-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/0898-transpose-matrix) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
+| [2645-pass-the-pillow](https://github.com/hariagrawal496/Leetcode/tree/master/2645-pass-the-pillow) |
 ## Prefix Sum
 |  |
 | ------- |
