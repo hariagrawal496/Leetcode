@@ -97,6 +97,7 @@
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/hariagrawal496/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
 | [1476-count-negative-numbers-in-a-sorted-matrix](https://github.com/hariagrawal496/Leetcode/tree/master/1476-count-negative-numbers-in-a-sorted-matrix) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1528-kids-with-the-greatest-number-of-candies](https://github.com/hariagrawal496/Leetcode/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1580-shuffle-the-array](https://github.com/hariagrawal496/Leetcode/tree/master/1580-shuffle-the-array) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
@@ -146,6 +147,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1256-rank-transform-of-an-array) |
 | [1319-unique-number-of-occurrences](https://github.com/hariagrawal496/Leetcode/tree/master/1319-unique-number-of-occurrences) |
 | [1464-reduce-array-size-to-the-half](https://github.com/hariagrawal496/Leetcode/tree/master/1464-reduce-array-size-to-the-half) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
@@ -200,6 +202,7 @@
 | [0347-top-k-frequent-elements](https://github.com/hariagrawal496/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0387-first-unique-character-in-a-string](https://github.com/hariagrawal496/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0837-most-common-word](https://github.com/hariagrawal496/Leetcode/tree/master/0837-most-common-word) |
+| [1510-find-lucky-integer-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 ## Dynamic Programming
 |  |
