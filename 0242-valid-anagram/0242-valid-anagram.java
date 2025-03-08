@@ -6,25 +6,32 @@ class Solution {
             return false ;
         }
 
-        HashMap<Character , Integer> map = new HashMap<>() ;
-        for(char x : s.toCharArray())
+        if( s == t)
         {
-            map.put(x, map.getOrDefault(x,0)+1) ;
+            return true ;
         }
-     
-        for(char x : t.toCharArray())
-        {
-            if(map.containsKey(x))
-            {
-                map.put(x, map.getOrDefault(x,0)-1) ;
 
-                if(map.get(x) == 0)
-                {
-                    map.remove(x) ;
-                }
+        Map<Character,Integer> map = new HashMap<>() ;
+        for(char c : s.toCharArray())
+        {
+         map.put(c, map.getOrDefault(c, 0)+1) ;
+        }
+
+        for(char c : t.toCharArray())
+        {
+            if(!map.containsKey(c))
+            {
+                return false ;
+            }
+
+            map.put(c, map.getOrDefault(c, 0)-1) ;
+
+            if(map.get(c) == 0)
+            {
+                map.remove(c) ;
             }
         }
 
-      return map.size() == 0 ;
+        return map.size() == 0 ;
     }
 }
