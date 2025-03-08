@@ -325,6 +325,7 @@
 | [1044-find-common-characters](https://github.com/hariagrawal496/Leetcode/tree/master/1044-find-common-characters) |
 | [1250-longest-common-subsequence](https://github.com/hariagrawal496/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/hariagrawal496/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/hariagrawal496/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
@@ -484,6 +485,7 @@
 | [0874-backspace-string-compare](https://github.com/hariagrawal496/Leetcode/tree/master/0874-backspace-string-compare) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/hariagrawal496/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1720-crawler-log-folder](https://github.com/hariagrawal496/Leetcode/tree/master/1720-crawler-log-folder) |
+| [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/hariagrawal496/Leetcode/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
