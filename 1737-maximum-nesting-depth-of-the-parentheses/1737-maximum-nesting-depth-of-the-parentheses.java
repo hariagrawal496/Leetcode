@@ -1,8 +1,6 @@
 class Solution {
     public int maxDepth(String s) 
     {
-        Stack<Character> stack = new Stack<>() ;
-
         int count = 0 ;
         int maxCount = 0 ;
 
@@ -19,7 +17,6 @@ class Solution {
             }
             maxCount = Math.max(maxCount, count) ;
         }
-
      return maxCount ;
     }
 }
