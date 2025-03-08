@@ -3,15 +3,15 @@ class Solution {
     {
         int n = arr.length ;
         int count = 0 ;
-        int maxVal = Integer.MIN_VALUE;
+        int maxValue = Integer.MIN_VALUE;
 
         for(int i=0; i<n; i++)
         {
-            maxVal = Math.max(maxVal, arr[i]) ;
-             if(maxVal == i)
-             {
-               count++ ;
-             }
+            maxValue = Math.max(maxValue, arr[i]) ;
+            if(maxValue == i)
+            {
+                count++ ;
+            }
         }
         return count ;
     }
