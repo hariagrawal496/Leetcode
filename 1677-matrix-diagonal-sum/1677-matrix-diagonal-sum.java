@@ -1,20 +1,23 @@
 class Solution {
-    public int diagonalSum(int[][] mat) 
-    {
+    public int diagonalSum(int[][] mat) {
+          int sum = 0 ;
         int n = mat.length ;
-        int sum = 0 ;
-
+        
         for(int i=0; i<n; i++)
         {
-            if(i == n-1-i)
+            int s = i ;
+            int e = n-1-i ;
+            
+            if(s == e)
             {
-                sum += mat[i][i] ;
+                sum += mat[i][e] ;
             }
             else
             {
-                sum += mat[i][n-1-i] + mat[i][i] ;
+                sum += mat[i][s] + mat[i][e] ;
             }
         }
         return sum ;
+        
     }
 }
