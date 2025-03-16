@@ -9,25 +9,17 @@
  * }
  */
 class Solution {
-    public ListNode middleNode(ListNode head) {
-        int count = 0 ;
+    public ListNode middleNode(ListNode head) 
+    {
+        ListNode slow = head ;
+        ListNode fast = head ;
 
-        ListNode curr = head ;
-
-        while(curr != null)
+        while(fast != null && fast.next != null)
         {
-            count++ ;
-            curr = curr.next ;
+            fast = fast.next.next ;
+            slow = slow.next ;
         }
 
-        count = count/2 ;
-        curr = head ;
-
-        while(count-- != 0)
-        {
-           curr = curr.next ;
-        }
-        
-        return curr ;
+        return slow ;
     }
 }
