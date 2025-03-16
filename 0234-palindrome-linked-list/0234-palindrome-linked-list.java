@@ -11,24 +11,17 @@
 class Solution {
     public boolean isPalindrome(ListNode head) 
     { 
-        ListNode curr = head ;
-        int count = 0 ;
-        while(curr != null)
-        {
-            count++ ;
-            curr = curr.next ;
-        }
-
         ListNode slow = head ;
         ListNode fast = head ;
-        count = count/2 ;
 
-        while(count-- != 0)
+        while(fast != null && fast.next != null)
         {
             slow = slow.next ;
-        }
+            fast = fast.next.next ;
+        }   
 
         slow = reverse(slow) ;
+        fast = head ;
 
         while(slow != null)
         {
