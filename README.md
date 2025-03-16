@@ -108,6 +108,7 @@
 | [1791-richest-customer-wealth](https://github.com/hariagrawal496/Leetcode/tree/master/1791-richest-customer-wealth) |
 | [1839-decode-xored-array](https://github.com/hariagrawal496/Leetcode/tree/master/1839-decode-xored-array) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/hariagrawal496/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2486-most-frequent-even-element](https://github.com/hariagrawal496/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Hash Table
 |  |
@@ -151,6 +152,7 @@
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
 | [1741-sort-array-by-increasing-frequency](https://github.com/hariagrawal496/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/hariagrawal496/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [2486-most-frequent-even-element](https://github.com/hariagrawal496/Leetcode/tree/master/2486-most-frequent-even-element) |
 | [2502-sort-the-people](https://github.com/hariagrawal496/Leetcode/tree/master/2502-sort-the-people) |
 ## Divide and Conquer
 |  |
@@ -204,6 +206,7 @@
 | [0837-most-common-word](https://github.com/hariagrawal496/Leetcode/tree/master/0837-most-common-word) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/hariagrawal496/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1635-number-of-good-pairs](https://github.com/hariagrawal496/Leetcode/tree/master/1635-number-of-good-pairs) |
+| [2486-most-frequent-even-element](https://github.com/hariagrawal496/Leetcode/tree/master/2486-most-frequent-even-element) |
 ## Dynamic Programming
 |  |
 | ------- |
