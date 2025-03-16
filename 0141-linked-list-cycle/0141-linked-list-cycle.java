@@ -12,7 +12,7 @@
 public class Solution {
     public boolean hasCycle(ListNode head) 
     {
-       List<ListNode> list = new ArrayList<>() ;
+       Set<ListNode> list = new HashSet<>() ;
        ListNode curr = head ;
 
        while(curr != null)
@@ -21,7 +21,7 @@ public class Solution {
             {
                 return true ;
             }
-            
+
             list.add(curr) ;
             curr = curr.next ;
        }
