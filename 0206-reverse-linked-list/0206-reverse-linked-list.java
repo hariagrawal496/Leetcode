@@ -11,26 +11,39 @@
 class Solution {
     public ListNode reverseList(ListNode head) 
     {
-        if(head == null)
-        {
-            return null ;
-        }
-
-        ListNode prev = null ;
+        List<Integer> list = new LinkedList<>() ;
         ListNode curr = head ;
-        ListNode next = null ;
 
         while(curr != null)
-        { 
-            next = curr.next ; // 2 3 4 5 null
-            curr.next = prev ; // null 1 2 3 4
+        {
+            list.add(curr.val) ;
+            curr = curr.next ;
+        }
+       
+        int s = 0 ;
+        int e = list.size()-1 ;
 
-            prev = curr ; //  1 2 3 4 5
-            curr = next ; //  2 3 4 5 null
+        while (s <= e)
+        {
+            int temp = list.get(s) ;
+            int val = list.get(e) ;
+
+            list.set(s, val) ;
+            list.set(e, temp) ;
+
+            s++ ;
+            e-- ;
         }
 
-         head = prev ;
-         
-        return head ;
+        ListNode res = new ListNode(-1) ;
+        ListNode node = res ; 
+
+      for(int i=0; i<list.size(); i++)
+      {
+         node.next = new ListNode(list.get(i)) ;
+         node = node.next ;
+      }
+
+    return res.next ;
     }
 }
