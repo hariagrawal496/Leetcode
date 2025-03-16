@@ -12,20 +12,19 @@
 public class Solution {
     public boolean hasCycle(ListNode head) 
     {
-        ListNode slow = head ;
-        ListNode fast = head ;
+       List<ListNode> list = new ArrayList<>() ;
+       ListNode curr = head ;
 
-        while(fast != null && fast.next != null)
-        {
-            fast = fast.next.next ;
-            slow = slow.next ;
-
-             if(fast == slow  && fast.val == slow.val)
-             {
+       while(curr != null)
+       {
+            if(list.contains(curr))
+            {
                 return true ;
-             }
-        }
-
+            }
+            
+            list.add(curr) ;
+            curr = curr.next ;
+       }
      return false ;
     }
 }
