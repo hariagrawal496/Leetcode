@@ -295,6 +295,7 @@
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/hariagrawal496/Leetcode/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2491-smallest-even-multiple](https://github.com/hariagrawal496/Leetcode/tree/master/2491-smallest-even-multiple) |
 | [2507-number-of-common-factors](https://github.com/hariagrawal496/Leetcode/tree/master/2507-number-of-common-factors) |
+| [2571-find-the-pivot-integer](https://github.com/hariagrawal496/Leetcode/tree/master/2571-find-the-pivot-integer) |
 | [2645-pass-the-pillow](https://github.com/hariagrawal496/Leetcode/tree/master/2645-pass-the-pillow) |
 ## String
 |  |
@@ -391,6 +392,7 @@
 | [0304-range-sum-query-2d-immutable](https://github.com/hariagrawal496/Leetcode/tree/master/0304-range-sum-query-2d-immutable) |
 | [1046-max-consecutive-ones-iii](https://github.com/hariagrawal496/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1603-running-sum-of-1d-array](https://github.com/hariagrawal496/Leetcode/tree/master/1603-running-sum-of-1d-array) |
+| [2571-find-the-pivot-integer](https://github.com/hariagrawal496/Leetcode/tree/master/2571-find-the-pivot-integer) |
 ## Bit Manipulation
 |  |
 | ------- |
