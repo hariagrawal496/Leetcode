@@ -17,17 +17,18 @@ public class Solution {
             return false ;
         }
 
-        List<ListNode> list = new ArrayList<>() ;
-        ListNode curr = head ;
+        ListNode slow = head ;
+        ListNode fast = head.next ;
           
-        while(curr != null)
+        while(fast != null && fast.next != null)
         {
-            if(list.contains(curr))
-            {
+             if(fast == slow)
+             {
                 return true ;
-            }
-            list.add(curr) ;
-            curr = curr.next ;
+             }
+
+             fast = fast.next.next ;
+             slow = slow.next ;
         }
          
     return false ;
